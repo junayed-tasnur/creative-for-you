@@ -3,8 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="src/main.css" />
     <title>Creative for you</title>
+    <link rel="stylesheet" href="src/main.css" />
+
+    <!-- font awesome cdn link -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
   </head>
   <body class="container mx-auto">
     <!-- navbar section start-->
@@ -37,7 +46,7 @@
       </nav>
       <!-- skill section start -->
       <div
-        class="relative w-full h-[741px] bg-cover bg-center flex items-center justify-center rounded-b-[200px]"
+        class="relative w-full h-[741px] bg-cover bg-center flex items-center justify-center md:rounded-b-[200px] rounded-2xl"
         style="background-image: url('images/2.png')"
       >
         <div class="text-center text-white">
@@ -64,5 +73,67 @@
       <!-- skill section end -->
     </header>
     <!-- navbar section end-->
+
+    <!-- C4U section start -->
+
+    <div class="md:flex flex-row md:gap-16 md:mt-8">
+      <div class="p-5 text-center mr-3 my-auto md:ml-[80px]">
+        <h1 class="text-[40px] font-bold mt-3 ">
+          At <span class="redT border-b border-b-red-600">C4U,</span> <br />
+          We Empower:
+        </h1>
+      </div>
+      <!-- frist card -->
+      <div class="md:flex flex-row md:gap-14 leading-snug">
+        <div class="forcard">
+          <img
+            src="images/3.png"
+            alt=""
+            class="bg-white rounded-full p-2 mt-3 ml-4"
+          />
+          <h3 class="font-semibold text-[18px] ml-4 text-white m-3">
+            Students
+          </h3>
+          <p class="ml-4 text-white mb-3">
+            We help students find their way in a fast-evolving world by creating
+            a personalised learning journey guaranteed to help stand out in a
+            crowded job market.
+          </p>
+        </div>
+        <!-- second card -->
+
+        <div class="forcard">
+          <img
+            src="images/4.png"
+            alt=""
+            class="bg-white rounded-full p-2 mt-3 ml-4"
+          />
+          <h3 class="font-semibold text-[18px] ml-4 text-white m-3">
+            Universities
+          </h3>
+          <p class="ml-4 text-white mb-3">
+            We help your emerging talent to unlock their full potential by
+            combining education and work to create future-ready employees
+          </p>
+        </div>
+        <!-- third card -->
+
+        <div class="forcard">
+          <img
+            src="images/5.png"
+            alt=""
+            class="bg-white rounded-full p-2 mt-3 ml-4"
+          />
+          <h3 class="font-semibold text-[18px] ml-4 text-white m-3">
+            Businesses
+          </h3>
+          <p class="ml-4 text-white mb-3">
+            We help students find their way in a fast-evolving world by creating
+            a personalised learning journey guaranteed to help stand out in a
+            crowded job market.
+          </p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
