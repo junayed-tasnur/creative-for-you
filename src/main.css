@@ -12,4 +12,10 @@
   .navbarhover{
     @apply hover:text-[#F44335] hover:border hover:border-gray-200 hover:px-4 hover:py-2 hover:rounded-lg transition-all duration-300 hover:scale-105
   }
+  .redT{
+    @apply text-[#F44335]
+  }
+  .forallbtn{
+    @apply text-[#F44335] bg-white font-semibold text-[18px] rounded-full px-4 py-2 mt-6 border border-red-600 hover:scale-105 transition-all duration-300 cursor-pointer hover:bg-[#F44335] hover:-skew-x-12 hover:text-white
+  }
 }
