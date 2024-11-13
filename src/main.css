@@ -19,6 +19,9 @@
     @apply text-[#F44335] bg-white font-semibold text-[18px] rounded-full px-4 py-2 mt-6 border border-red-600 hover:scale-105 transition-all duration-300 cursor-pointer hover:bg-[#F44335] hover:-skew-x-12 hover:text-white;
   }
   .forcard {
-    @apply bg-[#2D3142] rounded-[10px] w-[251px] h-[279px] mx-auto p-2 mt-5 md:shadow-[#2d3142] shadow-xl hover:scale-105 hover:-translate-y-6 duration-300 transition-all md:cursor-zoom-in shadow-gray-400 ml-8;
+    @apply bg-[#2D3142] rounded-[10px] w-[251px] h-[279px] mx-auto p-2 mt-5 md:shadow-[#2d3142] shadow-xl hover:scale-105 hover:-translate-y-6 duration-300 transition-all md:cursor-zoom-in shadow-gray-400 ;
+  }
+  .forImg{
+    @apply hover:scale-150 duration-300 transition-all cursor-zoom-in
   }
 }
