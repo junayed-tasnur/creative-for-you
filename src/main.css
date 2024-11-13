@@ -30,4 +30,8 @@
   .forteamcard {
     @apply bg-white p-6 rounded-lg shadow-lg text-center hover:shadow-xl duration-300 w-[275px] h-[250px] transition-all hover:scale-105;
   }
+
+  .footerhover{
+    @apply hover:text-[#F44335]
+  }
 }
